@@ -74,3 +74,20 @@ h3 {
   font-size: 3em;
   text-shadow: 1px 3px 2px black;
 }
+/* ********************PRESENTATION****************************** */
+#presentation {
+  background-color: #FFFAE1;
+  padding: 10px 0px 100px 0;
+}
+#TextIntro {
+  padding: 0px 20%;
+}
+#prestations {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px 10%;
+}
+.imagesPrestations h4{
+  font-family: 'Dancing Script', cursive;
+}
