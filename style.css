@@ -137,21 +137,36 @@ img:hover {
   padding-top: 15px;
   box-shadow: 4px 4px 0 1px rgba(90,161,43,1);
 }
-/* #tourisme #chateau, #vignoble {
-  float: right;
+/* *****************FOOTER************************** */
+footer {
+  background-color: #524A3A;
+  color: #FFFAE1;
+  padding: 20px 0 10px 0;
+  text-align: center;
 }
-#chateau p, #vignoble p {
-  float: left;
-  background-color: cyan;
-  margin-left: -180px;
-  box-shadow: -4px 4px 0 1px; rgba(15,154,156,1);
-} */
-/* #chateau {
-  background: url(Clos Marsault/chateau.JPG;)
+form {
+  margin: 0 auto;
+  max-width: 900px;
 }
-#phare {
-  background: url(Clos Marsault/phare.JPG;)
+input, textarea, button {
+  border: none;
+  width: 55%;
+  padding: 15px 10px;
+  margin: 1px 0;
+  font-size: 1.2em;
+  font-family: "Advent Pro", sans-serif;
+  border-radius: 8px;
 }
-#vignes {
-  background: url(Clos Marsault/vignes.jpg;)
-} */
+textarea {
+  height: 120px;
+}
+button {
+  font-size: 1.5em;
+  background-color: #FFFAE1;
+}
+button:hover {
+  background-color: darkcyan;
+  color: #FFFAE1;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
