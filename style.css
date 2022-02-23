@@ -96,3 +96,7 @@ h3 {
   margin: 15px;
   font-weight: 300;
 }
+img {
+border-radius: 10px;
+box-shadow: 5px 5px 3px 1px rgba(0, 0, 0, 0.7);
+}
