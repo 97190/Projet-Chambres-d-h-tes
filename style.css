@@ -100,3 +100,8 @@ img {
 border-radius: 10px;
 box-shadow: 5px 5px 3px 1px rgba(0, 0, 0, 0.7);
 }
+img:hover {
+  opacity: 0.5;
+  transform: scale(1.04);
+  transition: 0.8s; 
+}
