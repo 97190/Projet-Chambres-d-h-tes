@@ -89,7 +89,7 @@ h3 {
   justify-content: space-around;
   padding: 30px 20%;
 }
-.imagesPrestations h4 {
+h4 {
   font-family: 'Dancing Script', cursive;
   text-align: center;
   font-size: 1.8em;
@@ -103,5 +103,5 @@ box-shadow: 5px 5px 3px 1px rgba(0, 0, 0, 0.7);
 img:hover {
   opacity: 0.5;
   transform: scale(1.04);
-  transition: 0.8s; 
+  transition: 0.8s;
 }
