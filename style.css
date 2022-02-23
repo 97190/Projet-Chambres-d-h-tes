@@ -96,8 +96,8 @@ h4 {
   margin: 15px;
   font-weight: 300;
 }
-img {
-border-radius: 10px;
+.img {
+border-radius: 30px;
 box-shadow: 5px 5px 3px 1px rgba(0, 0, 0, 0.7);
 }
 img:hover {
@@ -107,7 +107,7 @@ img:hover {
 }
 /* ******************TOURISME***************************** */
 #tourisme {
-  height: 1400px;
+  height: 1100px;
   background-color: #f1f2f6;
   padding: 1px 2%
 }
@@ -119,9 +119,33 @@ img:hover {
 }
 #tourisme li {
   margin: 65px 100px 100px;
+  padding-left: 45px;
   height: 226px;
   width: 55%;
+  max-width: 550px;
+  float: left;
+  box-shadow: 6px 6px 28px -1px rgba(0, 0, 0, 0 75);
 }
+#tourisme p {
+  height: 45px;
+  width: 235px;
+  background-color: rgb(32, 207, 134);
+  float: right;
+  margin: 50px -180px 0 0;
+  padding-left: 25px;
+  font-size: 1.5em;
+  padding-top: 15px;
+  box-shadow: 4px 4px 0 1px rgba(90,161,43,1);
+}
+/* #tourisme #chateau, #vignoble {
+  float: right;
+}
+#chateau p, #vignoble p {
+  float: left;
+  background-color: cyan;
+  margin-left: -180px;
+  box-shadow: -4px 4px 0 1px; rgba(15,154,156,1);
+} */
 /* #chateau {
   background: url(Clos Marsault/chateau.JPG;)
 }
