@@ -105,3 +105,29 @@ img:hover {
   transform: scale(1.04);
   transition: 0.8s;
 }
+/* ******************TOURISME***************************** */
+#tourisme {
+  height: 1400px;
+  background-color: #f1f2f6;
+  padding: 1px 2%
+}
+#tourisme h2 {
+  padding-top: 60px;
+}
+#ocean {
+  background: url(Clos Marsault/ocean.jpg);
+}
+#tourisme li {
+  margin: 65px 100px 100px;
+  height: 226px;
+  width: 55%;
+}
+/* #chateau {
+  background: url(Clos Marsault/chateau.JPG;)
+}
+#phare {
+  background: url(Clos Marsault/phare.JPG;)
+}
+#vignes {
+  background: url(Clos Marsault/vignes.jpg;)
+} */
