@@ -170,3 +170,14 @@ button:hover {
   cursor: pointer;
   transition: 0.3s ease-in-out;
 }
+#deuxiemeTrait {
+  height: 1px;
+  width: 75%;
+  background-color: #FFFAE1;
+  margin: 60px auto;
+}
+#copyrightEtIcons {
+  display: flex;
+  margin-bottom: 20px;
+  padding: 0 10%;
+}
