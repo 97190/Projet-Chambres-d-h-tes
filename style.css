@@ -191,7 +191,7 @@ button:hover {
 }
 #icons {
   width: 50%;
-  text-align: right;
+  /* text-align: right; */
 }
 #icons a {
   display: inline-block;
@@ -201,5 +201,9 @@ button:hover {
 }
 #icons:hover {
   transform: scale(1.5);
-  transition: 0.1s;
+  transition: 0.1s
+}
+.fa {
+  display: flexbox;
+  color:black;
 }
